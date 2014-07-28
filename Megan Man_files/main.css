@@ -1,0 +1,1472 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: freightDisp;
+	src: url(fonts/FreightDisp-Light.bmap);
+
+}
+
+@font-face {
+	font-family: freightDispBold;
+	src: url(fonts/FreightDisp-Bold.bmap);
+	font-weight:bold;
+
+}
+
+
+#curtainContainer {
+	position: absolute;
+	width: 100%;
+	height: 98%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #f3f2e9;
+	display: table;
+	z-index: 2;
+
+}
+
+
+#curtainCopy {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 52px;
+	letter-spacing: 1.5px;
+	line-height: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 130px;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+#curtainSubcopy1 {
+	font-size: 18px;
+	color: #999;
+	letter-spacing: .05em;
+	max-width: 640px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 28px;
+
+}
+
+
+#curtainSubcopy2 {
+	font-size: 18px;
+	color: #333;
+	letter-spacing: .05em;
+	max-width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 28px;
+
+}
+
+#ghostContainer {
+	position: absolute;
+	height: 100%;
+	top: 100%;
+	bottom: -100%;
+
+}
+
+#ghostContainer2 {
+	position: absolute;
+	height: 100%;
+	top: 100%;
+	bottom: -100%;
+
+}
+
+#navContainer {
+	width: 100%;
+	height: 130px;
+	background:#fff;
+	position: absolute;
+	z-index: 6;
+	overflow: hidden;
+
+}
+
+#navContainer_mobile {
+	width: 100%;
+	height: 0px;
+	background:#fff;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.navContainer_scroll {
+	position: absolute;
+
+
+
+}
+
+#nav {
+	max-width: 1280px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+#logo {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 25px;
+	padding-top: 47px;
+	height: 24px;
+	border-bottom: solid 1px #010101;
+	float: left;
+	color: #010101;
+	padding-bottom: 6px;
+
+}
+
+a:visited #logo {
+	color: #010101;
+	border-bottom: solid 1px #010101;
+
+}
+
+a:active #logo {
+	color: #010101;
+	border-bottom: solid 1px #010101;
+
+}
+
+a:hover #logo {
+	color: #999;
+	border-bottom: solid 1px #999;
+
+}
+
+#projectsContainer {
+	width: 285px;
+	height: 130px;
+	float: right;
+
+}
+
+#projectsCol_1 {
+	width: 132px;
+	height: 53px;
+	padding-top: 37px;
+	float: left;
+
+
+}
+
+#projectsCol_2 {
+	width: 142px;
+	height: 53px;
+	padding-top: 37px;
+	float: left;
+
+
+}
+
+#contactContainer {
+	width: 105px;
+	height: 40px;
+	float: right;
+	padding-top: 7px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-left: solid 1px #ddd;
+
+}
+
+#contact {
+	width: 105px;
+	height: 54px;
+	float: right;
+
+}
+
+#introContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-height: 100%;
+/*	background-image: url('images/diageoFeature.png'); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #000;*/
+	text-align: center;
+	z-index: 1;
+
+}
+
+
+#introContainerHome {
+	position: absolute;
+	top: 125%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-height: 100%;
+/*	background-image: url('images/diageoFeature.png'); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #000;*/
+	text-align: center;
+	z-index: 1;
+
+}
+
+
+
+#introCopy_container {
+	position: relative;
+	top:50px;
+	display: table;
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 97%;
+
+}
+
+#introCopy_containerAG {
+	position: relative;
+	top:50px;
+	display: table;
+	max-width: 910px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 97%;
+
+}
+
+#introCopy {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 118px;
+	color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#introCopyAG {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 118px;
+	color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+
+#introImg_container {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: 0;
+	text-align: center;
+
+}
+
+
+.introImg {
+	max-width: 100%;
+	height: inherit;
+	margin-right: auto;
+	margin-left: auto;
+	/*background-image: url("images/diageoFeature.png");*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.introImg2 {
+	width: auto;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+	min-height: 100%;
+	display: block;
+
+}
+
+.introImgNM {
+	max-width: 100%;
+	height: inherit;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("images/nw/nw_1.jpg");
+	background-attachment: fixed;
+	background-position: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.pttrn {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('images/pttrn.png');
+	background-attachment: fixed;
+	opacity: .3;
+
+}
+
+.pttrnBreaker {
+	position: absolute;
+	width: 100%;
+	max-width: 100%;
+	max-height: 720px;
+	background-image: url('images/pttrn.png');
+	opacity: .3;
+
+
+}
+
+#projectContainer {
+	width: 100%;
+	background: #fff;
+	top: 97%;
+	z-index: 1;
+
+}
+
+#projectContainerHome {
+	width: 100%;
+	background: #fff;
+	top: 180%;
+	z-index: 1;
+
+}
+
+
+#featureContainer {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background: #fff000;
+	text-align: center;
+
+}
+
+#featureCopy_container {
+	position: relative;
+	display: table;
+	max-width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+
+}
+
+#featureCopy {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 118px;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#footer {
+	height: 110px;
+	background: #fff;
+	padding-left: 30px;
+
+}
+
+#footerCopy {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 14px;
+
+}
+
+#menuContainer {
+	width: 0;
+	height: 0;
+	position: absolute;
+	background color: #f3f2e9;
+	z-index: 3;
+	overflow: hidden;
+
+}
+
+.menuNav_container {
+	width: 100%;
+	margin-top: 130px;
+	background: #f3f2e9;
+
+}
+
+.absolute {
+	position: absolute;
+
+}
+
+.fixed {
+	position: fixed;
+
+}
+
+.projectsNum {
+	width: 28px;
+	height: 21px;
+	float: left;
+	font-family: "freight-display-pro", "FreightDisp-Bold";
+	font-weight: 700;
+	font-size: 13px;
+	color: #010101
+
+}
+
+a:visited .projectsNum {
+	color: #010101
+
+}
+
+a:active .projectsNum {
+	color: #010101;
+
+}
+
+a:hover .projectsNum {
+	color: #555
+
+}
+
+.arrowDown {
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+
+}
+
+.projects {
+	width: 104px;
+	height: 21px;
+	float: left;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 13px;
+	color: #010101;
+
+}
+
+a:visited .projects {
+	color: #010101
+
+}
+
+a:active .projects {
+	color: #010101;
+
+}
+
+a:hover .projects {
+	color: #999
+
+}
+
+
+.contact {
+	max-width: 104px;
+	height: 21px;
+	float: left;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 13px;
+	text-decoration: underline;
+	padding-left: 45px;
+	color: #010101;
+
+
+}
+
+a:visited .contact {
+	color: #010101;
+
+}
+
+a:active .contact {
+	color: #010101;
+
+}
+
+a:hover .contact {
+	color: #999;
+
+}
+
+
+.desContainer {
+	max-width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 80px;
+	padding-right: 80px;
+
+
+}
+
+
+.desTitle {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 40px;
+	/*max-width: 730px;*/
+	margin-top: 80px;
+	letter-spacing: 2px;
+	color: #333;
+	line-height: 44px;
+
+
+}
+
+.desInfo {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 22px;
+	color: #999;
+	line-height: 27px;
+	letter-spacing: .25px;
+	margin-top: 32px;
+
+
+}
+
+.desInfo_2 {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 22px;
+	color: #999;
+	line-height: 27px;
+	letter-spacing: .25px;
+	margin-top: 26px;
+
+
+}
+
+.projectImg_container {
+	width: 90%;
+	max-width: 1300px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.projectImg {
+	width:100%;
+
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.imgBreaker_container {
+	width: 100%;
+	max-width: 1440px;
+	max-height: 720px;
+	margin-top: 80px;
+
+}
+
+.imgBreaker {
+	width: 100%;
+}
+
+.imgBreakerPttrn {
+	width: 100%;
+	opacity: 0;
+}
+
+.creditsContainer {
+	max-width: 860px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 80px;
+	padding-right: 80px;
+
+
+}
+
+.creditsTitle {
+	font-family: "freight-display-pro", "FreightDisp-Bold";
+	font-weight: 700;
+	font-size: 14px;
+
+
+}
+
+.creditsInfo {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 13px;
+	margin-top: 18px;
+	color: #999;
+
+
+}
+
+.creditsInfo_2 {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 13px;
+	margin-top: 9px;
+	color: #999;
+	
+
+}
+
+.bottomNav_container {
+	width: 100%;
+	margin-top: 73px;
+	background: #f3f2e9;
+
+}
+
+.bottomNav_sub {
+	width: 100%;
+	height: 176px;
+	border-bottom: solid 1px #e8e7de;
+	display: table;
+	text-align: center;
+
+	-webkit-transition: background 0.3s ease-out; 
+    -moz-transition: background 0.3s ease-out; 
+    -o-transition: background 0.3s ease-out; 
+    transition: background 0.3s ease-out; 
+
+
+}
+
+a:visited .bottomNav_sub {
+	background: #f3f2e9;
+}
+
+a:active .bottomNav_sub {
+	background: #f3f2e9;
+}
+
+a:hover .bottomNav_sub {
+	background: #f9f9f4;
+}
+
+.bottomNav_subLast {
+	width: 90%;
+	height: 176px;
+	display: table;
+	text-align: center;
+	padding-left: 5%;
+
+	-webkit-transition: background 0.3s ease-out; 
+    -moz-transition: background 0.3s ease-out; 
+    -o-transition: background 0.3s ease-out; 
+    transition: background 0.3s ease-out; 
+
+}
+
+a:visited .bottomNav_subLast {
+	background: #f3f2e9;
+}
+
+a:active .bottomNav_subLast {
+	background: #f3f2e9;
+}
+
+a:hover .bottomNav_subLast {
+	background: #f9f9f4;
+}
+
+.bottomNav_title {
+	vertical-align: center;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 65px;
+	display: table-cell;
+	padding-top: 45px;
+	color: #222;
+
+	-webkit-transition: background 0.3s ease-out; 
+    -moz-transition: background 0.3s ease-out; 
+    -o-transition: background 0.3s ease-out; 
+    transition: background 0.3s ease-out; 
+
+}
+
+a:visited .bottomNav_title {
+	vertical-align: center;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 65px;
+	display: table-cell;
+	padding-top: 45px;
+	color: #222;
+
+}
+
+a:active .bottomNav_title {
+	vertical-align: center;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 65px;
+	display: table-cell;
+	padding-top: 45px;
+	color: #222;
+
+}
+
+a:hover .bottomNav_title {
+	vertical-align: center;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 65px;
+	display: table-cell;
+	padding-top: 45px;
+	color: #666;
+
+}
+
+.menuNav_contact {
+	vertical-align: center;
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 40px;
+	display: table-cell;
+	padding-top: 65px;
+
+}
+
+.menuNav_link {
+	font-family: "freight-display-pro", "FreightDisp-Light";
+	font-weight: 300;
+	font-size: 40px;
+	color: #222;
+	opacity: .6;
+
+}
+
+a:visited .menuNav_link  {
+	color: #222;
+	opacity: .6;
+
+}
+
+a:active .menuNav_link  {
+	color: #222;
+	opacity: .6;
+}
+
+a:hover .menuNav_link  {
+	color: #222;
+	opacity: 1;
+
+}
+
+
+
+.clear {
+	clear: both;
+
+}
+
+@media (max-width: 940px) {
+
+	#introCopyAG {
+		font-size: 96px;
+
+	}
+
+}
+
+
+@media (max-width: 768px) {
+
+
+	/*.introImg {
+		max-width: 100%;
+		height: inherit;
+		min-height: 100%;
+		margin-right: auto;
+		margin-left: 0%;
+		background-image: url("images/diageoFeature.png");
+		background-size: 150%;
+		background-repeat: no-repeat;
+		background-position-x: 50%;
+
+	}*/
+
+	.introImg2 {
+		width: 100%;
+		height: auto;
+		margin-left: -25%;
+		max-width: 0;
+		min-width: 150%;
+
+	}
+
+	#navContainer {
+		width: 100%;
+		height: 0px;
+		background:#fff;
+		position: absolute;
+		z-index: 6;
+		overflow: hidden;
+
+	}
+
+	#navContainer_mobile {
+		width: 100%;
+		height: 130px;
+		background:#fff;
+		position: absolute;
+		z-index: 10;
+		overflow: hidden;
+
+	}
+
+	#menuCTA {
+		float: right;
+		height: 24px;
+		margin-top:38px;
+		font-size: 40px;
+
+
+	}
+
+	#menuCTA_close {
+		position: absolute;
+		right:30px;
+		height: 24px;
+		margin-top:53px;
+		font-size: 40px;
+
+	}
+
+	#menuContainer {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	background color: #f3f2e9;
+	z-index: 3;
+
+	}
+
+	#introCopy {
+	font-size: 90px;
+
+	}
+
+	#introCopyAG {
+	font-size: 90px;
+
+	}
+
+	.desContainer {
+		padding-left: 100px;
+		padding-right: 120px;
+
+	}
+
+	.desTitle {
+		font-size: 35px;
+		margin-top: 50px;
+		line-height: 35px;
+
+
+	}
+
+	.desInfo {
+		font-size: 18px;
+		line-height: 22px;
+		margin-top: 18px;
+
+
+	}
+
+	.desInfo_2 {
+		font-size: 18px;
+		line-height: 22px;
+		margin-top: 18px;
+
+
+	}
+
+	.projectImg_container {
+		margin-top: 55px;
+
+
+	}
+
+	.imgBreaker_container {
+		margin-top: 55px;
+		min-width: 100%;
+		overflow: hidden;
+
+	}
+
+	.pttrnBreaker {
+		overflow: hidden;
+	}
+
+	.imgBreakerPttrn {
+		width: 140%;
+		margin-left: -20%;
+		overflow: hidden;
+
+	}
+
+	.imgBreaker {
+		width: 140%;
+		margin-left: -20%;
+
+	}
+
+	.creditsContainer {
+		padding-left: 100px;
+		padding-right: 120px;
+
+	}
+
+
+}
+
+
+@media (max-width: 890px) {
+
+	#curtainCopy {
+	padding-left: 135px;
+	padding-right: 135px;
+}
+
+}
+
+@media (max-width: 870px) {
+
+	#curtainCopy {
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+}
+
+@media (max-width: 820px) {
+
+	#curtainCopy {
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+}
+
+@media (max-width: 800px) {
+
+	#curtainCopy {
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+}
+
+
+@media (max-width: 790px) {
+	
+	#curtainCopy {
+		padding-left: 95px;
+		padding-right: 95px;
+	}
+
+}
+
+
+@media (max-width: 735px) {
+
+	#introCopyAG {
+	font-size: 72px;
+
+	}
+
+}
+
+@media (max-width: 595px) {
+
+	#introCopyAG {
+	font-size: 54px;
+
+	}
+
+}
+
+@media (max-width: 570px) {
+
+	#curtainCopy {
+		font-family: "freight-display-pro", "FreightDisp-Light";
+		font-weight: 300;
+		font-size: 42px;
+		letter-spacing: 1.5px;
+		line-height: 38px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 130px;
+		vertical-align: middle;
+		text-align: center;
+		display: table-cell;
+		max-width: 510px;
+	}
+
+	#curtainCopy {
+		font-size: 36px;
+		line-height: 34px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+}
+
+
+@media (max-width: 635px) {
+	
+	#curtainCopy {
+		padding-left: 118px;
+		padding-right: 118px;
+	}
+
+}
+
+
+@media (max-width: 605px) {
+	
+	#curtainCopy {
+		padding-left: 105px;
+		padding-right: 105px;
+	}
+
+}
+
+
+@media (max-width: 540px) {
+
+	#curtainCopy {
+		font-family: "freight-display-pro", "FreightDisp-Light";
+		font-weight: 300;
+		font-size: 42px;
+		letter-spacing: 1.5px;
+		line-height: 38px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 130px;
+		vertical-align: middle;
+		text-align: center;
+		display: table-cell;
+		max-width: 510px;
+	}
+
+	#curtainCopy {
+		font-size: 36px;
+		line-height: 34px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+}
+
+
+@media (max-width: 500px) {
+
+	.menuNav_link {
+		font-size: 36px;
+	}
+
+}
+
+@media (max-width: 490px) {
+
+	.introImg {
+		min-width: 200%;
+		margin-right: 0;
+		margin-left: -50%;
+
+	}	
+
+	.bottomNav_title {
+		font-size: 50px;
+		padding-top: 60px;
+
+	}
+
+
+	a:visited .bottomNav_title {
+		font-size: 50px;
+		padding-top: 60px;
+
+	}
+
+	a:active .bottomNav_title {
+		font-size: 50px;
+		padding-top: 60px;
+	}
+
+	a:hover .bottomNav_title {
+		font-size: 50px;
+		padding-top: 60px;
+
+	}
+
+	.desContainer {
+		padding-left: 40px;
+		padding-right: 40px;
+
+	}
+
+	.desTitle {
+		margin-top: 40px;
+
+	}
+
+	.pttrn {
+		margin-left: 50%;
+
+	}
+
+	.creditsContainer {
+		padding-left: 40px;
+		padding-right: 40px;
+
+	}
+
+	#introCopyAG {
+		font-size: 48px;
+
+	}
+
+}
+
+
+
+@media (max-width: 450px) {
+
+	.menuNav_link {
+		font-size: 26px;
+	}
+
+	#curtainCopy {
+		font-size: 36px;
+		line-height: 34px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#curtainSubcopy1 {
+		height: 0px;
+		overflow: hidden;
+		font-size: 18px;
+		color: #999;
+		letter-spacing: .05em;
+		max-width: 640px;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		line-height: 28px;
+
+	}
+
+	#curtainSubcopy2 {
+		line-height: 22px;
+
+	}
+
+}
+
+
+@media (max-width: 390px) {
+
+	#introCopyAG {
+		font-size: 40px;
+
+	}
+
+	#curtainCopy {
+		font-size: 38px;
+		line-height: 38px;
+		padding-bottom: 5%;
+
+	}
+
+
+}
+
+
+
+@media screen and (-moz-min-device-pixel-ratio: 2) and (max-width: 320px), screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 320px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 320px), screen and (min-device-pixel-ratio: 2) and (max-width: 320px) {
+
+
+
+/*	#curtainCopy {
+		font-size: 32px;
+		letter-spacing: 1.5px;
+		line-height: 36px;
+		padding-left: 14px;
+		padding-right: 14px;
+	}*/
+
+	#navContainer_mobile {
+		width: 100%;
+		height: 84px;
+		background:#fff;
+		position: absolute;
+		z-index: 10;
+		overflow: hidden;
+
+	}
+
+	#nav {
+		padding-left: 20px;
+		padding-right: 20px;
+
+	}
+
+	#logo {
+		font-size: 20px;
+		padding-top: 30px;
+		height: 24px;
+		padding-bottom: 2px;
+
+	}
+
+	#menuCTA {
+		float: right;
+		height: 24px;
+		margin-top:17px;
+		font-size: 40px;
+
+
+	}
+
+	#menuCTA_close {
+		right:20px;
+		margin-top:16px;
+		font-size: 40px;
+
+	}
+
+	.menuNav_container {
+		margin-top: 84px;
+
+	}
+
+	#introImg_container {
+		background-color: #000;
+		overflow: hidden;
+
+	}
+
+	#introCopy_container {
+		top:30px;
+
+	}
+
+
+	#introCopy {
+		font-size: 50px;
+
+	}
+
+	#introCopyAG {
+		font-size: 38px;
+
+	}
+
+
+	.desContainer {
+		padding-left: 25px;
+		padding-right: 25px;
+
+
+	}
+
+	.desTitle {
+		font-size: 25px;
+		margin-top: 50px;
+		line-height: 28px;
+
+
+	}
+
+	.desInfo {
+		font-size: 15px;
+		line-height: 19px;
+		margin-top: 12px;
+
+
+	}
+
+	.desInfo_2 {
+		font-size: 15px;
+		line-height: 19px;
+		margin-top: 12px;
+
+
+	}
+
+	.projectImg_container {
+		width: 270px;
+		max-width: 1300px;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.imgBreaker_container {
+		margin-top: 45px;
+
+	}
+
+
+	.creditsContainer {
+		margin-top: 40px;
+		padding-left: 25px;
+		padding-right: 25px;
+
+
+	}
+
+	.bottomNav_container {
+		margin-top: 50px;
+
+	}
+
+	.bottomNav_title {
+		font-size: 40px;
+		padding-top: 60px;
+
+	}
+
+
+	a:visited .bottomNav_title {
+		font-size: 40px;
+		padding-top: 60px;
+
+	}
+
+	a:active .bottomNav_title {
+		font-size: 40px;
+		padding-top: 60px;
+	}
+
+	a:hover .bottomNav_title {
+		font-size: 40px;
+		padding-top: 60px;
+
+	}
+
+	.menuNav_contact {
+		vertical-align: center;
+		font-family: "freight-display-pro", "FreightDisp-Light";
+		font-weight: 300;
+		font-size: 22px;
+		display: table-cell;
+		padding-top: 70px;
+
+	}
+
+	.menuNav_link {
+		font-family: "freight-display-pro", "FreightDisp-Light";
+		font-weight: 300;
+		font-size: 22px;
+		color: #222;
+		opacity: .6;
+		padding-left: 20px;
+		padding-right: 40px;
+
+	}
+
+}
+
+/*@media (min-device-width : 320px) {
+
+
+	#introImg_container {
+		background-color: red;
+
+	}
+
+	.introImg {
+		min-width: 540px;
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+
+	#introCopy {
+		font-size: 70px;
+
+	}
+
+	.bottomNav_title {
+		font-size: 40px;
+		padding-top: 70px;
+
+	}
+
+
+	a:visited .bottomNav_title {
+		font-size: 40px;
+		padding-top: 70px;
+
+	}
+
+	a:active .bottomNav_title {
+		font-size: 40px;
+		padding-top: 70px;
+	}
+
+	a:hover .bottomNav_title {
+		font-size: 40px;
+		padding-top: 70px;
+
+	}
+
+}*/
+
