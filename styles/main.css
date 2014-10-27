@@ -22,7 +22,7 @@
 	right: 0;
 	left: 0;
 	bottom: 0;
-	background: #f3f2e9;
+	background: url('../images/paper_fibers.png') #f3f2e9;
 	display: table;
 	z-index: 2;
 
@@ -126,7 +126,6 @@
 	font-size: 25px;
 	padding-top: 47px;
 	height: 24px;
-	border-bottom: solid 1px #010101;
 	float: left;
 	color: #010101;
 	padding-bottom: 6px;
@@ -135,19 +134,19 @@
 
 a:visited #logo {
 	color: #010101;
-	border-bottom: solid 1px #010101;
+
 
 }
 
 a:active #logo {
 	color: #010101;
-	border-bottom: solid 1px #010101;
+
 
 }
 
 a:hover #logo {
 	color: #999;
-	border-bottom: solid 1px #999;
+
 
 }
 
@@ -435,16 +434,7 @@ a:hover #logo {
 
 }
 
-.projectsNum {
-	width: 28px;
-	height: 21px;
-	float: left;
-	font-family: "freight-display-pro", "FreightDisp-Bold";
-	font-weight: 700;
-	font-size: 13px;
-	color: #010101
 
-}
 
 a:visited .projectsNum {
 	color: #010101
@@ -468,16 +458,7 @@ a:hover .projectsNum {
 
 }
 
-.projects {
-	width: 104px;
-	height: 21px;
-	float: left;
-	font-family: "freight-display-pro", "FreightDisp-Light";
-	font-weight: 300;
-	font-size: 13px;
-	color: #010101;
 
-}
 
 a:visited .projects {
 	color: #010101

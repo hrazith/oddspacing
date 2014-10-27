@@ -1,0 +1,94 @@
+/*{"c":"2014-06-19T04:57:05Z","s":"prod-origin-2ac07556","v":"3bc8e3"}*/
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * freight-display-pro:
+ *   - http://typekit.com/eulas/0000000000000000000132d2
+ *   - http://typekit.com/eulas/0000000000000000000132ce
+ *   - http://typekit.com/eulas/0000000000000000000132d1
+ *   - http://typekit.com/eulas/0000000000000000000132cd
+ *
+ * (c) 2009-2014 Adobe Systems Incorporated. All Rights Reserved.
+ */
+body { 
+	font-family: 'proxima_nova_rgregular', sans-serif;
+	color: #2e2e2e;
+}
+
+h1 {
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+	line-height: 45px;
+	margin-top: 12px;
+}
+
+
+.crimson { color: #d8431c; }
+.gray { color: #949494;}
+
+#welcome{
+	position: absolute;
+	width: 100%;
+	height: 98%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: url('../images/paper_fibers.png') #f3f2e9;
+	display: table;
+	z-index: 2;
+	padding-top: 130px;
+}
+
+.intro {
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	width: 978px;
+	display: table-cell;
+	text-align: center;
+}
+
+.intro h1 {
+	margin-bottom: 12px;
+}
+
+.subtext {
+	font-family: 'proxima_nova_rgregular', sans-serif;
+	font-size: 18px;
+	color: #2e2e2e;
+}
+
+#projectsCol_1 ol {
+
+    list-style-type:decimal-leading-zero;
+}
+
+.projectsNum {
+	width: 28px;
+	height: 21px;
+	float: left;
+	font-family: 'proxima_nova_rgregular', 'proxima_nova_rgbold', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.projectsNum b {
+	color: #ccc;
+}
+
+.projects {
+	width: 104px;
+	height: 21px;
+	float: left;
+	font-family: 'proxima_nova_rgregular','proxima_nova_rgbold', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #010101;
+
+}
