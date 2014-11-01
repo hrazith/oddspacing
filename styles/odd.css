@@ -1,21 +1,22 @@
-/*{"c":"2014-06-19T04:57:05Z","s":"prod-origin-2ac07556","v":"3bc8e3"}*/
-/*
- * The Typekit service used to deliver this font or fonts for use on websites
- * is provided by Adobe and is subject to these Terms of Use
- * http://www.adobe.com/products/eulas/tou_typekit. For font license
- * information, see the list below.
- *
- * freight-display-pro:
- *   - http://typekit.com/eulas/0000000000000000000132d2
- *   - http://typekit.com/eulas/0000000000000000000132ce
- *   - http://typekit.com/eulas/0000000000000000000132d1
- *   - http://typekit.com/eulas/0000000000000000000132cd
- *
- * (c) 2009-2014 Adobe Systems Incorporated. All Rights Reserved.
- */
+
 body { 
 	font-family: 'proxima_nova_rgregular', sans-serif;
 	color: #2e2e2e;
+}
+
+a { 
+	text-decoration: none;
+}
+
+b { 
+	font-family: 'proxima_nova_rgbold', sans-serif;
+	color: #666;
+
+}
+}
+
+.test {
+	border: 1px solid red;
 }
 
 h1 {
@@ -90,5 +91,130 @@ h1 {
 	font-weight: 300;
 	font-size: 13px;
 	color: #010101;
+}
+
+.contact {
+	max-width: 104px;
+	height: 21px;
+	float: left;
+	font-family: 'proxima_novalight', sans-serif;
+	font-size: 13px;
+	padding-left: 45px;
+	color: #010101;
 
 }
+
+.arrowDown {
+	font-family: 'proxima_novalight', sans-serif;
+	font-size: 13px;
+	margin-top: 20px;
+
+}
+
+#introCopy {
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	font-size: 118px;
+	color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+
+/* Article **/
+
+h2 {
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	font-size: 46px;
+	margin-top: 80px;
+	color: #333;
+	line-height: 1.4;
+}
+
+.credits li { 
+	font-family: 'proxima_novalight', sans-serif;
+	display: inline;
+	font-size: 13px;
+}
+
+.credits li:after {
+	content: "|";
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.credits li:last-child:after {
+	content: "";
+}
+
+li.role:before, li.research:before { 
+	font-family: 'proxima_nova_rgbold', sans-serif;
+	color: #aaa;
+	font-size: 12px;
+	padding-right: 4px;
+}
+
+li.role:before { content: "ROLE:"; }
+li.research:before { content: "RESEARCH:"; }
+
+h3 {
+	font-family: 'proxima_nova_rgbold', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 80px;
+	color: #444;
+	line-height: 1.4;
+}
+
+.desContainer p {
+	font-size: 18px;
+	color: #888;
+	line-height: 1.4;
+
+	margin-top: 26px;
+}
+
+.eop {
+	margin-bottom: 140px;
+}
+
+
+.bottom-nav{
+	background: url('../images/paper_fibers.png') #f3f2e9;
+	width: 100%;
+}
+
+.nav li {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+
+}
+
+.nav li, .nav li a {
+	font-family: 'Arvo', serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 46px;
+	padding: 24px 0 24px 0;
+	color: #444;
+}
+
+.nav li a:hover {
+	color: #999;
+}
+
+
+#footerCopy {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	font-weight: 300;
+	font-size: 14px;
+
+}
+
+

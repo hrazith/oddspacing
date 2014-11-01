@@ -177,7 +177,7 @@ a:hover #logo {
 
 #contactContainer {
 	width: 105px;
-	height: 40px;
+	height: 70px;
 	float: right;
 	padding-top: 7px;
 	padding-bottom: 20px;
@@ -253,16 +253,7 @@ a:hover #logo {
 
 }
 
-#introCopy {
-	font-family: "freight-display-pro", "FreightDisp-Light";
-	font-weight: 300;
-	font-size: 118px;
-	color: #fff;
-	margin-right: auto;
-	margin-left: auto;
-	vertical-align: middle;
-	display: table-cell;
-}
+
 
 #introCopyAG {
 	font-family: "freight-display-pro", "FreightDisp-Light";
@@ -396,16 +387,7 @@ a:hover #logo {
 
 }
 
-#footerCopy {
-	max-width: 1280px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 50px;
-	font-family: "freight-display-pro", "FreightDisp-Light";
-	font-weight: 300;
-	font-size: 14px;
 
-}
 
 #menuContainer {
 	width: 0;
@@ -451,12 +433,7 @@ a:hover .projectsNum {
 
 }
 
-.arrowDown {
-	font-family: sans-serif;
-	font-size: 18px;
-	margin-top: 20px;
 
-}
 
 
 
@@ -476,19 +453,7 @@ a:hover .projects {
 }
 
 
-.contact {
-	max-width: 104px;
-	height: 21px;
-	float: left;
-	font-family: "freight-display-pro", "FreightDisp-Light";
-	font-weight: 300;
-	font-size: 13px;
-	text-decoration: underline;
-	padding-left: 45px;
-	color: #010101;
 
-
-}
 
 a:visited .contact {
 	color: #010101;
@@ -512,6 +477,7 @@ a:hover .contact {
 	margin-left: auto;
 	padding-left: 80px;
 	padding-right: 80px;
+	line-height: 
 
 
 }
