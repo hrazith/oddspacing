@@ -194,24 +194,6 @@ a:hover #logo {
 
 }
 
-#introContainer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	max-height: 100%;
-/*	background-image: url('images/diageoFeature.png'); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-color: #000;*/
-	text-align: center;
-	z-index: 1;
-
-}
-
-
 #introContainerHome {
 	position: absolute;
 	top: 125%;
@@ -219,16 +201,22 @@ a:hover #logo {
 	right: 0;
 	bottom: 0;
 	max-height: 100%;
-/*	background-image: url('images/diageoFeature.png'); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-color: #000;*/
 	text-align: center;
 	z-index: 1;
 
 }
 
+#introContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-height: 100%;
+	text-align: center;
+	z-index: 1;
+
+}
 
 
 #introCopy_container {
@@ -242,29 +230,7 @@ a:hover #logo {
 
 }
 
-#introCopy_containerAG {
-	position: relative;
-	top:50px;
-	display: table;
-	max-width: 910px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 97%;
 
-}
-
-
-
-#introCopyAG {
-	font-family: "freight-display-pro", "FreightDisp-Light";
-	font-weight: 300;
-	font-size: 118px;
-	color: #fff;
-	margin-right: auto;
-	margin-left: auto;
-	vertical-align: middle;
-	display: table-cell;
-}
 
 
 #introImg_container {
