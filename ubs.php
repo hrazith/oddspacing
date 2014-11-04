@@ -59,7 +59,7 @@
 <!--  Project Area -->	
 
 
-	<div id="projectContainerHome" class="absolute">
+	<div id="projectContainer" class="absolute">
 
 <!-- Ghost container -->
 
@@ -87,6 +87,9 @@
 			<p>
 				The requriements dictated several complex interactions. We needed to design a simple and yet an effective way to create asset allocations, access firm's Intellectual Capital right from the tool (i.e. research lists), save specific securities and strategies as “favorites and include the ability to add assets held at UBS and outside.
 			</p>
+			
+
+			
 
 		</div>		
 
@@ -108,12 +111,7 @@
 			</p>
 
 			
-		</div>		
-
-
-
-
-
+		</div>
 
 
 
@@ -124,9 +122,6 @@
 			<img src="images/bp2.png" class="projectImg">
 
 		</div>
-
-
-<!-- Des 3 -->
 
 		<div class="desContainer">
 
@@ -142,8 +137,6 @@
 			</p>
 
 		</div>		
-
-<!-- Image 3 -->
 
 		<div class="projectImg_container">
 
@@ -242,6 +235,10 @@
 			<img src="images/fpb3.png" class="projectImg">
 
 		</div>
+
+
+
+
 
 
 
