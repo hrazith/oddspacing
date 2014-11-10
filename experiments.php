@@ -61,11 +61,7 @@
 
 	<div id="projectContainer" class="absolute">
 
-<!-- Ghost container -->
 
-	<div id="ghostContainer2">
-
-	</div>
 
 <!-- Des 1 -->
 
@@ -73,7 +69,8 @@
 
 			<h2> Sound & Sight </h2>
 			<ul class="credits">
-				<li class="role">Animator</li> 
+				<li class="class">Dynamic Typography</li> 
+				<li class="instructor">Jan Kubasiewicz</li> 
 				
 			</ul>
 			
@@ -96,9 +93,55 @@
 		</div>
 
 
-<!-- Des 2 -->
+<div class="desContainer">
 
-		
+			<h2> Campus Map </h2>
+			<ul class="credits">	
+				<li class="role">Designer</li> 
+				
+			</ul>
+			
+			
+			<p>
+				This was an excercise at a class called Dynamic Typograpy I took at <a href="http://www.massart.edu">Massachusetts College of Art and Design</a>. 
+				The main objective was to come with synchronous and or asynchronous imagery to a particular music or a song. 
+			</p>			
+
+
+		</div>		
+
+<section>
+       <div class="horizontal eop">
+           <div class="table">
+               <article>
+                  
+   				 <img src="images/1.jpg" width="792" height="612" alt="" />              
+                </article>
+               <article>
+                 <img src="images/2.jpg" width="792" height="612" alt="" />
+               </article>
+               <article>
+                 <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+           </div>
+       </div>
+       
+   </section>
 
 		
 
@@ -156,6 +199,26 @@
 			</div>	
 
 		</div>
+        
+
+    <script type="text/javascript" src="scripts/enscroll-0.4.2.min.js"></script>
+    
+
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.horizontal').enscroll({
+                horizontalTrackClass: 'horizontal-track2',
+                horizontalHandleClass: 'horizontal-handle2',
+                verticalScrolling: false,
+                horizontalScrolling: true,
+                addPaddingToPane: true
+            });
+            
+        });
+
+        
+    </script>
 
 
 </body></html>

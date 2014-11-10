@@ -12,7 +12,7 @@
 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <script src="scripts/jquery-1.js" type="text/javascript" charset="utf-8"></script>
 <script src="scripts/main.js" type="text/javascript" charset="utf-8"></script>
-<link href="styles/d.css" rel="stylesheet">
+
 
 </head>
 
@@ -39,17 +39,18 @@
 <!--  Intro Area  -->
 
 
-	<div id="introContainer">
+	<div id="introContainerPrint">
 
 		<div id="introCopy_container">
 			
 			<div id="introCopy">
 
 
-				<span class="crimson">Print.</span>
+				<span class="prnt">Print.</span>
 				
 
 			</div>
+            
 
 		</div>
 
@@ -69,22 +70,42 @@
 
 <!-- Des 1 -->
 
-		<div class="desContainer">
-
-			
-			
-			
-			
+		<div class="desContainer">			
+			<h2> Sociographics </h2>
+			<ul class="credits">
+				<li class="class">Poster Design </li> 
+				<li class="instructor"> Chaz Maviyane-Davies </li>
+			</ul>	
 			<p>
-				Sorry. I pulled it down to make a few updates. Please check back in some time. 
+				An exhibition of posters celebrating commonsense and social responsibility by the students of celebrated Professor of Design, Chaz Maviyane-Davies at the <a href="http://www.massart.edu">Massachusetts College of Art</a>. 
 			</p>
+			<p> These are my work part of 'Sociagraphic'. These posters were shorlisted to presented at the Boston State House.
+			</p>
+		</div>	
+		<div class="projectImg_container">
 
-			<p class="eop"> &nbsp; </p>			
+			<img src="images/print-series.jpg" class="projectImg">
 
+		</div>
 
-		</div>		
+		<div class="desContainer">			
+			<h2> Surya Yogurt </h2>
+			<ul class="credits">
+				<li class="role">Graphic Design</li> 
+				<li class="client"> Rajbhog Foods Inc.</li>
+			</ul>	
+			
+			<p> Packaging design and label art for Indian style, probiotic yogurt. 
+			</p>
+		</div>	
+		<div class="projectImg_container eop">
 
-<!-- Image 1 -->
+			<img src="images/print-surya-labels.jpg" class="projectImg">
+			<img src="images/print-surya-lids.jpg" class="projectImg">
+
+		</div>
+	
+
 
 		
 

@@ -67,21 +67,7 @@
 
 }
 
-#ghostContainer {
-	position: absolute;
-	height: 100%;
-	top: 100%;
-	bottom: -100%;
 
-}
-
-#ghostContainer2 {
-	position: absolute;
-	height: 100%;
-	top: 100%;
-	bottom: -100%;
-
-}
 
 #navContainer {
 	width: 100%;
@@ -517,7 +503,7 @@ a:hover .contact {
 }
 
 .imgBreaker_container {
-	width: 100%;
+	width: 100%;	
 	max-width: 1440px;
 	max-height: 720px;
 	margin-top: 80px;

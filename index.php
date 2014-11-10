@@ -12,7 +12,6 @@
 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <script src="scripts/jquery-1.js" type="text/javascript" charset="utf-8"></script>
 <script src="scripts/main.js" type="text/javascript" charset="utf-8"></script>
-<link href="styles/d.css" rel="stylesheet">
 
 </head>
 
@@ -93,7 +92,7 @@
 			<h2> Build Portfolio </h2>
 			<ul class="credits">
 				<li class="role">Creative Direction & UX Architecture </li> 
-				<li class="research"> Michealnelo DiPlao & Micheal Grossman </li>
+				<li class="research"> Michelangelo DiPalo & Micheal Grossman </li>
 			</ul>
 			
 

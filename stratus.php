@@ -12,7 +12,7 @@
 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <script src="scripts/jquery-1.js" type="text/javascript" charset="utf-8"></script>
 <script src="scripts/main.js" type="text/javascript" charset="utf-8"></script>
-<link href="styles/d.css" rel="stylesheet">
+
 
 </head>
 
@@ -171,7 +171,7 @@
 			
 			<h3> VM Backup / Novice Mode </h3>
 			<p>
-				Archeticting the experience and the workflow of a VM backup for novice users. Dotted lines are process. Solid rectangles denote views in the UI. 
+				Architecting the experience and the workflow of a VM backup for novice users. Dotted lines are process. Solid rectangles denote views in the UI. 
 			</p>
 			
 
@@ -193,7 +193,7 @@
 			<h2>Multisite</h2>
 			<ul class="credits">
 				<li class="role">Creative Direction & Interaction Design </li> 
-				<li class="research"> James Powers </li>
+				<li class="developer"> James Powers </li>
 			</ul>
 			<h3>Remote access to your VMs</h3>
 
