@@ -1,0 +1,275 @@
+/* Color Pallette */
+.crimson {
+  color: #d8431c; }
+
+.gray {
+  color: #949494; }
+
+.prnt {
+  -webkit-text-stroke: 1px #e25482;
+  color: white;
+  text-shadow: 1px 1px 3px #e25482, -1px -1px 0 #e25482,   1px -1px 0 #e25482, -1px 1px 0 #e25482, 1px 1px 0 #e25482;
+  opacity: .9; }
+
+body {
+  font: 18px/1.5 "proxima_nova_rgregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #888; }
+
+a {
+  text-decoration: none;
+  color: #d8431c; }
+
+p a:hover {
+  border-bottom: 1px dotted #d8431c; }
+
+p img {
+  margin-top: 40px; }
+
+b {
+  font-family: "proxima_nova_rgbold", sans-serif;
+  color: #888; }
+
+.test {
+  border: 1px solid red; }
+
+h1 {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+  line-height: 45px;
+  margin-top: 12px; }
+
+#welcome {
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url("../images/paper_fibers.png") #f3f2e9;
+  display: table;
+  z-index: 2;
+  padding-top: 130px; }
+
+.intro {
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+  width: 978px;
+  display: table-cell;
+  text-align: center; }
+
+.intro h1 {
+  margin-bottom: 12px; }
+
+.subtext {
+  font-family: 'proxima_nova_rgregular', sans-serif;
+  font-size: 18px;
+  color: #2e2e2e; }
+
+#projectsCol_1 ol {
+  list-style-type: decimal-leading-zero; }
+
+.projectsNum {
+  width: 28px;
+  height: 21px;
+  float: left;
+  font-family: 'proxima_nova_rgregular', 'proxima_nova_rgbold', sans-serif;
+  font-weight: 700;
+  font-size: 13px; }
+
+.projectsNum b {
+  color: #ccc; }
+
+.projects {
+  width: 104px;
+  height: 21px;
+  float: left;
+  font-family: 'proxima_nova_rgregular','proxima_nova_rgbold', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #010101; }
+
+.contact {
+  max-width: 104px;
+  height: 21px;
+  float: left;
+  font-family: 'proxima_novalight', sans-serif;
+  font-size: 13px;
+  padding-left: 45px;
+  color: #010101; }
+
+.arrowDown {
+  font-family: 'proxima_novalight', sans-serif;
+  font-size: 13px;
+  margin-top: 20px; }
+
+#introCopy {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 118px;
+  color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+  display: table-cell; }
+
+#introContainerPrint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+  text-align: center;
+  z-index: 1;
+  background: url("../images/prnt.png"); }
+
+/* Article **/
+h2 {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 46px;
+  margin-top: 80px;
+  color: #333;
+  line-height: 1.4; }
+
+.credits li {
+  font-family: 'proxima_novalight', sans-serif;
+  display: inline;
+  font-size: 13px; }
+
+.credits li:after {
+  content: "|";
+  padding-left: 4px;
+  padding-right: 4px; }
+
+.credits li:last-child:after {
+  content: ""; }
+
+li.role:before, li.research:before, li.class:before, li.instructor:before, li.developer:before, li.client:before {
+  font-family: 'proxima_nova_rgbold', sans-serif;
+  color: #aaa;
+  font-size: 12px;
+  padding-right: 4px; }
+
+li.role:before {
+  content: "ROLE:"; }
+
+li.research:before {
+  content: "RESEARCH:"; }
+
+li.class:before {
+  content: "CLASS:"; }
+
+li.instructor:before {
+  content: "INSTRUCTOR:"; }
+
+li.developer:before {
+  content: "DEVELOPER:"; }
+
+li.client:before {
+  content: "CLIENT:"; }
+
+h3 {
+  font-family: 'proxima_nova_rgbold', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 80px;
+  color: #444;
+  line-height: 1.4; }
+
+.desContainer p {
+  margin-top: 26px; }
+
+.desContainer p.caption, .projectImg_container p.caption {
+  color: #666;
+  font-size: 14px; }
+
+.eop {
+  margin-bottom: 140px; }
+
+.breathe {
+  margin-bottom: 60px; }
+
+.bottom-nav {
+  background: url("../images/paper_fibers.png") #f3f2e9;
+  width: 100%; }
+
+.nav li {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fff; }
+
+.nav li, .nav li a {
+  font-family: 'Arvo', serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 46px;
+  padding: 24px 0 24px 0;
+  color: #444; }
+
+.nav li a:hover {
+  color: #999; }
+
+#footerCopy {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  font-weight: 300;
+  font-size: 14px; }
+
+/* H scroll */
+div.horizontal {
+  display: block;
+  width: 100%;
+  height: 600px;
+  overflow: auto; }
+
+div.horizontal .table {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+
+div.horizontal .table article {
+  width: 600px;
+  height: 600px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+div.horizontal .bloomberg article {
+  width: 1400px; }
+
+.horizontal-track2 {
+  width: 100%;
+  height: 17px;
+  background: #b4b4b4; }
+
+.horizontal-handle2 {
+  height: 17px;
+  background: #555; }
+
+.horizontal-handle2 .left {
+  display: none; }
+
+.horizontal-handle2 .right {
+  display: none; }
+
+#projectContainer2 {
+  width: 100%;
+  background: #fff;
+  top: 130px !important;
+  z-index: 1;
+  border-top: 1px solid #ccc; }
+
+#projectContainer3 {
+  width: 100%;
+  background: #fff;
+  top: 40% !important;
+  z-index: 1;
+  border-top: 1px solid #ccc; }
+
+/*# sourceMappingURL=odd.css.map */
